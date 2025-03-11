@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="createPost.html" style="text-decoration: none;"><button>Add New Post</button></a>
+    <button class="refresh_complete">Refresh</button>
+    <center>
+        <h2>Posts</h2>
+        <table border="1px solid black">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody id="postsTable"></tbody>
+        </table>
+    
+        <br>
+    </center>
+    <script src="use_case1.js"></script>
+    <script>
+        displayPosts(); 
+    </script>
+</body>
+</html>
